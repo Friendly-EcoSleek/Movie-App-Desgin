@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        TabView {
+            UpComing()
+                
+                .tabItem {
+                    Label("Up Coming", systemImage: "clock")
+                }
+            
+            TopRated()
+                .tabItem {
+                    Label("Top Rated", systemImage: "star")
+                }
+        }.navigationBarTitle("")
+        .navigationBarHidden(true)
     }
 }
 
