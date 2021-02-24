@@ -389,14 +389,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mounty Prime Movies/Preview Content\"";
-				DEVELOPMENT_TEAM = 9H7666S8HR;
+				DEVELOPMENT_TEAM = GQ6RNQG8PA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Mounty Prime Movies/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mountry.Mounty-Prime-Movies";
+				PRODUCT_BUNDLE_IDENTIFIER = "mountry.Mounty-Prime-Movie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
